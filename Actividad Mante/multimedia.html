@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    
+}
+
+.imagen-port:hover .hover-galeria{
+transform: scale(1);
+
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height:100% ;
+    top:0;
+    transform: scale(0);
+    background: hsla(273, 91%, 27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+
+.portafolio{
+    background: #ffc6e2;
+}
+
+.galeria-port{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    
+}
+
+        .imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: conver;
+    display: block;
+}
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a galeria, aquí podras encontrar todo tipo de prendas</h1>
+    <a href="../Actividad Mante/index.html">Ir a inicio</a>
+    <section class="Portafolio">
+        <div class="contenedor">
+            <h2 class="titulo">Galeria</h2>
+            <div class="galeria-port">
+                <div class="imagen-port">
+                    <img src="../Actividad Mante/img/ropa 1.png" alt="">
+                    <div class="hover-galeria">
+                        <img src="../pagina-web/img/cursor.png" alt="">
+                        <p>Nuestras ofertas </p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="../Actividad Mante/img/ropa3.jfif" alt="">
+                    <div class="hover-galeria">
+                        <img src="../pagina-web/img/cursor.png" alt="">
+                        <p>Nuestras ofertas</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="../Actividad Mante/img/ropa2.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="../pagina-web/img/cursor.png" alt="">
+                        <p>Nuestras ofertas</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="../Actividad Mante/img/ropa4.webp" alt="">
+                    <div class="hover-galeria">
+                        <img src="../pagina-web/img/cursor.png" alt="">
+                        <p>Nuestras ofertas</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="../Actividad Mante/img/ropa5.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="../pagina-web/img/cursor.png" alt="">
+                        <p>Nuestras ofertas</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="../Actividad Mante/img/ropa6.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="../pagina-web/img/cursor.png" alt="">
+                        <p>Nuestras ofertas</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="../Actividad Mante/img/ropa7.jfif" alt="">
+                    <div class="hover-galeria">
+                        <img src="../pagina-web/img/cursor.png" alt="">
+                        <p>Nuestras ofertas</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="../Actividad Mante/img/ropa8.jfif" alt="">
+                    <div class="hover-galeria">
+                        <img src="../pagina-web/img/cursor.png" alt="">
+                        <p>Nuestras ofertas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
